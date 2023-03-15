@@ -1,0 +1,52 @@
+/* google font */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.debug header{
+    background-color: aqua;
+}
+
+.debug main{
+    background-color: red;
+}
+
+/* header */
+header{
+    height: 70px;
+    background-color: rgb(250, 250, 250);
+}
+
+header i{
+    cursor: pointer;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+/* nav */
+nav{
+    background-color: #051E34;
+    background-image: url("../img/sidebar-bg.png");
+    background-size: cover;
+    color: #fff;
+}
+
+nav i{
+    font-size: 20px;
+}
+
+nav a{
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+/* main */
+main{
+    overflow-y: auto;
+}
