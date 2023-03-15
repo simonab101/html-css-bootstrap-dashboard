@@ -51,7 +51,129 @@ main{
     overflow-y: auto;
 }
 
-/* variabili */
+
+
+
+
+
+/* common */ 
+
+
+/* reset */
+img{
+    max-width: 90%;
+    display: block;
+}
+  
+  ul{
+    list-style: none;
+    padding-left: 0;
+}
+  
+  ul li{
+    padding: 5px 10px;
+    transition: background-color 0.4s;
+}
+  
+  ul li:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+  
+  a{
+    color: inherit;
+    text-decoration: none;
+}
+  
+  
+  .ir-body{
+    height: calc(100vh - 70px);
+}
+  
+  .ir-padding-y-10{
+    padding: 10px 0;
+}
+  
+  .ir-header{
+    background-color: #fff;
+    height: 100%;
+}
+  
+  .ir-header i{
+    font-size: 20px;
+}
+  
+  .ir-header .ir-logo{
+    height: 50px;
+}
+  
+  .ir-w{
+    width: var(--ir-w);
+}
+  
+  .ir-grow{
+    flex-grow: 1;
+}
+  
+  .ir-color-gold{
+    color: gold;
+}
+  
+  .ir-color-gray{
+    color: gray;
+}
+  
+  .ir-color-black{
+    color: #000;
+}
+  
+  .ir-cerca{
+    width: 100%;
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+    padding-left: 35px;
+    border: none;
+    border-radius: 5px;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position:left;
+}
+  
+  .ir-font-size{
+    font-size: 14px!important;
+}
+  
+  .ir-larghezza-canva{
+    width: 100%!important;
+}
+  
+  .ir-width-img{
+    height: 25px;
+}
+  
+  .ir-h-25{
+    height: 30px;
+}
+  
+  @media screen and (min-width: 992px) {
+    .ir-w{
+        width: calc(var(--ir-w) * 2);
+    }
+  
+    .ir-larghezza-canva{
+        width: 50%!important;
+    }
+}
+
+
+
+
+
+
+/*   variabili   */
+
+
 :root{
     --ir-w: 70px;
-  }
+}
+
